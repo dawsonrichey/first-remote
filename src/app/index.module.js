@@ -9,6 +9,7 @@ import { WebDevTecService } from '../app/components/webDevTec/webDevTec.service'
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive';
 
+//myMessageFront is app name that should be changed before production
 angular.module('myMessageFront', ['ui.router', 'ui.bootstrap', 'toastr'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
